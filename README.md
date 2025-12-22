@@ -7,12 +7,13 @@ A full-stack Identity Management Microservice designed to demonstrate secure use
 * **Secure Authentication:** User registration and login using hashed passwords (Bcrypt) and stateless session management (JWT).
 * **Data Encryption:** Sensitive fields (Aadhaar/ID) are encrypted using AES-256-CBC before being stored in the database.
 * **Decryption on Demand:** Data is only decrypted and sent to the frontend when a valid, authenticated user requests their own profile.
+* **Comprehensive Testing:** Automated unit tests for security utilities using Jest.
 * **Modern UI:** Responsive Dashboard built with React and Tailwind CSS.
 
 ## 🛠️ Tech Stack
 
 * **Frontend:** React.js, Tailwind CSS, Axios, Lucide React (Icons)
-* **Backend:** Node.js, Express.js
+* **Backend:** Node.js, Express.js, Jest (Testing)
 * **Security:** Bcrypt (Hashing), Crypto (AES-256 Encryption), JSON Web Tokens (JWT)
 * **Database:** SQLite (In-Memory for MVP demonstration)
 
