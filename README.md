@@ -24,5 +24,5 @@ This project requires **Node.js** installed on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/omkar614/Secure-Identity-System.git](https://github.com/omkar614/Secure-Identity-System.git)
+git clone https://github.com/omkar614/Secure-Identity-System.git
 cd secure-identity-system
