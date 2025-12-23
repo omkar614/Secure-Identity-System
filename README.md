@@ -27,3 +27,39 @@ This project requires **Node.js** installed on your machine.
 ```bash
 git clone https://github.com/omkar614/Secure-Identity-System.git
 cd secure-identity-system
+```
+###2. Run the Backend (Terminal 1)
+Open your first terminal window and run:
+```bash
+cd backend
+npm install
+node server.js
+```
+###3. Run the Frontend (Terminal 2)
+Keep the first terminal open. Open a new terminal window and run:
+```bash
+cd frontend
+npm install
+npm start
+```
+The application will automatically open in your browser at 
+```bash 
+http://localhost:3000
+```
+
+Running Tests
+To verify the AES-256 encryption logic and ensure security compliance:
+```bash
+cd backend
+npx jest
+```
+
+## 🤖 AI Usage Documentation
+
+| Component | Detail |
+| :--- | :--- |
+| **Tool Usage** | Used Gemini for code generation (helper functions, boilerplate), test case creation, and debugging assistance. |
+| **AI-Assisted Tasks** | 1. **Encryption Utility:** Generated `crypto` logic for AES-256.<br>2. **Unit Tests:** Wrote Jest test cases for encryption.<br>3. **Frontend:** Created React `useState` logic for switching views. |
+| **Effectiveness Score** | **5/5** - Significantly sped up boilerplate setup and ensured security best practices (randomized IVs) were implemented correctly from the start. |
+
+
